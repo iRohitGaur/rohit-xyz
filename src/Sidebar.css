@@ -1,8 +1,41 @@
 .sidebar__container {
   width: 20%;
   height: 100%;
+  background-color: var(--primary-color);
   display: flex;
+  align-items: center;
+  flex-direction: column;
   border-style: solid;
   border-color: blue;
-  background-color: gray;
+}
+
+.sidebar__logoContainer {
+  width: 80%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.sidebar__logo {
+  max-width: 200px;
+}
+
+.sidebar__profilePicContainer {
+  width: 80%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.sidebar__profilePic {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.fadeIn {
+  animation: fade 0.9s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
 }
