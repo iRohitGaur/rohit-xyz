@@ -1,0 +1,8 @@
+.sidebar__container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  border-style: solid;
+  border-color: blue;
+  background-color: gray;
+}
