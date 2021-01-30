@@ -39,3 +39,19 @@
     opacity: 0;
   }
 }
+
+.sidebar__introTextContainer {
+  width: 80%;
+  text-align: center;
+}
+
+.sidebar__introText {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sidebar__introText h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0.5rem;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import ReactTypingEffect from "react-typing-effect";
 
 function Sidebar() {
   return (
@@ -9,6 +10,28 @@ function Sidebar() {
       </div>
       <div className="sidebar__profilePicContainer fadeIn">
         <img className="sidebar__profilePic" src="img/dp.jpg" alt="" />
+      </div>
+      <div className="sidebar__introTextContainer">
+        <ReactTypingEffect
+          className="sidebar__introText"
+          text={"Hi, I'm Rohit Gaur"}
+          speed="100"
+          typingDelay="900"
+          cursor=" "
+          eraseDelay="99999999999999"
+          displayTextRenderer={(text, i) => {
+            return <h3>{text}</h3>;
+          }}
+        />
+        <br />
+        <ReactTypingEffect
+          className="sidebar__introText"
+          text={"iOS and Web developer"}
+          speed="100"
+          typingDelay="3000"
+          cursor=" "
+          eraseDelay="99999999999999"
+        />
       </div>
     </div>
   );
