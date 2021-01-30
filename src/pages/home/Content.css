@@ -1,0 +1,6 @@
+.content__container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  background-color: var(--gray200);
+}

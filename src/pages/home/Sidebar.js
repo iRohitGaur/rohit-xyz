@@ -33,6 +33,15 @@ function Sidebar() {
           eraseDelay="99999999999999"
         />
       </div>
+      <div className="sidebar__nav">
+        <div>Portfolio</div>
+        <div>Blogs</div>
+      </div>
+      <div className="sidebar__social">
+        <span>Twitter</span>
+        <span>Github</span>
+        <span>Instagram</span>
+      </div>
     </div>
   );
 }
