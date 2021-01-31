@@ -15,25 +15,12 @@ function Sidebar() {
       </div>
       <div className="sidebar__profilePicContainer fadeIn">
         <img className="sidebar__profilePic" src="img/dp.jpg" alt="" />
-      </div>
-      <div className="sidebar__introTextContainer">
-        <ReactTypingEffect
-          className="sidebar__introText"
-          text={"Hi, I'm Rohit Gaur"}
-          speed="100"
-          typingDelay="0"
-          cursor=" "
-          eraseDelay="99999999999999"
-          displayTextRenderer={(text, i) => {
-            return <h3>{text}</h3>;
-          }}
-        />
-        <br />
+        <h1>Rohit Gaur</h1>
         <ReactTypingEffect
           className="sidebar__introText"
           text={"iOS and Web developer"}
           speed="100"
-          typingDelay="2000"
+          typingDelay="0"
           cursor=" "
           eraseDelay="99999999999999"
         />

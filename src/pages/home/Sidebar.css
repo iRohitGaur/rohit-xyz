@@ -57,12 +57,19 @@
 }
 
 .sidebar__nav {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .sidebar__social {
   margin: 1rem 0;
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   font-size: 2rem;
 }
