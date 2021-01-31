@@ -61,4 +61,12 @@
 
 .sidebar__social {
   margin: 1rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+a {
+  color: white;
 }
