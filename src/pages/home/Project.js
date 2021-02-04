@@ -1,13 +1,21 @@
 import React from "react";
 import "./Project.css";
+import Color from "color-thief-react";
 
 function Project({ name, poster, description, actions }) {
   const actionButtons = Object.keys(actions);
   return (
     <div className="project__container">
-      <div className="project__posterContainer">
-        <img className="project__poster" src={poster} alt={name} />
-      </div>
+      <Color src={poster} format="hex">
+        {({ data }) => (
+          <div
+            className="project__posterContainer"
+            style={{ backgroundColor: data }}
+          >
+            <img className="project__poster" src={poster} alt={name} />
+          </div>
+        )}
+      </Color>
       <div className="project__detailsContainer">
         <div className="project__details">
           <div className="project__detailsName">{name}</div>

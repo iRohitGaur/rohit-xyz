@@ -11,7 +11,7 @@
 
 .blog__posterContainer {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .blog__poster {

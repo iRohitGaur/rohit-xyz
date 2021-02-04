@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Blog.css";
+import Color from "color-thief-react";
 
 function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -14,16 +15,22 @@ function Blog() {
 
   return (
     <>
-      <div>{console.log(blogs)}</div>
       {blogs.map((blog) => (
         <div className="blog__container">
-          <div className="blog__posterContainer">
-            <img
-              className="blog__poster"
-              src={blog.social_image}
-              alt={blog.slug}
-            />
-          </div>
+          <Color src={blog.social_image} format="hex" crossOrigin>
+            {({ data, loading, error }) => (
+              <div
+                className="blog__posterContainer"
+                style={{ backgroundColor: data }}
+              >
+                <img
+                  className="blog__poster"
+                  src={blog.social_image}
+                  alt={blog.slug}
+                />
+              </div>
+            )}
+          </Color>
           <div className="blog__detailsContainer">
             <div className="blog__detailsName">{blog.title}</div>
             <div className="blog__details">

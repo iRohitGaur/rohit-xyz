@@ -11,7 +11,7 @@
 
 .project__posterContainer {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .project__poster {
