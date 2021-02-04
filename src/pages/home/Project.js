@@ -13,7 +13,7 @@ function Project({ name, poster, description, actions }) {
           <div className="project__detailsName">{name}</div>
           <div className="project__detailsButtonContainer">
             {actionButtons.map((item) => (
-              <a href={actions[item]}>
+              <a key={item} href={actions[item]}>
                 <div className="project__detailsButtons">{item}</div>
               </a>
             ))}
