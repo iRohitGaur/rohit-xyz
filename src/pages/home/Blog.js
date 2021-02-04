@@ -15,6 +15,7 @@ function Blog() {
 
   return (
     <>
+      <div className="blog__heading">Blog</div>
       {blogs.map((blog) => (
         <div className="blog__container">
           <Color src={blog.social_image} format="hex" crossOrigin>

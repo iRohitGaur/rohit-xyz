@@ -65,6 +65,26 @@
   font-weight: 700;
 }
 
+.sidebar__navButton {
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar__navButton:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar__nav > .selected {
+  pointer-events: none;
+  background-color: var(--secondary-color);
+}
+
 .sidebar__social {
   margin: 1rem 0;
   width: 80%;
@@ -76,4 +96,10 @@
 
 a {
   color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: black;
+  transition: color 0.2s ease-in-out;
 }

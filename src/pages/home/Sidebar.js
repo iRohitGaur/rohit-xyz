@@ -7,7 +7,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fab);
 
-function Sidebar({ contentHandler }) {
+function Sidebar({ content, contentHandler }) {
   return (
     <div className="sidebar__container">
       <div className="sidebar__logoContainer">
@@ -26,8 +26,22 @@ function Sidebar({ contentHandler }) {
         />
       </div>
       <div className="sidebar__nav">
-        <div onClick={() => contentHandler("portfolio")}>Portfolio</div>
-        <div onClick={() => contentHandler("blog")}>Blog</div>
+        <div
+          className={`sidebar__navButton ${
+            content === "portfolio" ? "selected" : ""
+          }
+          `}
+          onClick={() => contentHandler("portfolio")}
+        >
+          Portfolio
+        </div>
+        <div
+          className={`sidebar__navButton ${content === "blog" ? "selected" : ""}
+          `}
+          onClick={() => contentHandler("blog")}
+        >
+          Blog
+        </div>
       </div>
       <div className="sidebar__social">
         <a href="https://apps.apple.com/us/developer/rohit-gaur/id1382308402">

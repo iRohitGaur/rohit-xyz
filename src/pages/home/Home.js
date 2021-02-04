@@ -11,7 +11,10 @@ function Home() {
 
   return (
     <>
-      <Sidebar contentHandler={(newContent) => contentHandler(newContent)} />
+      <Sidebar
+        content={content}
+        contentHandler={(newContent) => contentHandler(newContent)}
+      />
       <Content content={content} />
     </>
   );

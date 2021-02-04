@@ -6,7 +6,7 @@ export let projects = {
       description:
         "Say good bye to cropping! Convert your landscape or portrait videos and photos to square size without cropping and post them in full size on your social media.\nThe app is simple and free to use, no watermarks.\nSimply select your video or photo, select a background color and process it. The video or photo will be saved in your camera roll.\nYou can also choose the blur option for background which will use the video or photo in blur mode in the background.",
       actions: {
-        "Download for iOS":
+        "Download ":
           "https://apps.apple.com/us/app/square-it-videos-photos/id1526107955",
       },
     },
@@ -16,7 +16,7 @@ export let projects = {
       description:
         "It is a great game to play while taking a break from work or studies as it freshens up your mind. Are you feeling bored? Or do you want to get your mind off something? Playing this game will help you get rid of all the distractions and focus on having fun. Be it an adult or a kid, it is a good game for all to play. Go and take the card-matching challenge now!",
       actions: {
-        "Download for iOS":
+        "Download ":
           "https://apps.apple.com/us/app/chatai-match-cards/id1503885469",
       },
     },
@@ -26,7 +26,7 @@ export let projects = {
       description:
         "The app first asks you to setup a Main Password. It will use this Main Password to encrypt and decrypt your username and password data. You can add data from the + button on top right side of the main screen. To see your data in decrypted form you can tap the lock/unlock button on the top left. You will be required to verify your Main Password.",
       actions: {
-        "Download for iOS":
+        "Download ":
           "https://apps.apple.com/us/app/upass-password-security/id1501143571",
       },
     },
@@ -36,7 +36,7 @@ export let projects = {
       description:
         "Tiffin Tracker helps you manage your tiffin deliveries. If you avail food delivery services (or tiffins) frequently, especially in a weekly pattern, it could get difficult to remember the exact days you have or haven't received the services of the vendor and when to pay them. Tiffin Tracker is your buddy that keeps a tab on this! Set the dates on which the tiffins get delivered to you, the cost per tiffin and the updated balance. Simplistic and effective in ensuring on-time (and accurate) payments!",
       actions: {
-        "Download for iOS":
+        "Download ":
           "https://apps.apple.com/us/app/tiffin-tracker/id1382308403",
       },
     },
