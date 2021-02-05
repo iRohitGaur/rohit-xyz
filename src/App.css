@@ -27,7 +27,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px), screen and (max-height: 720px) {
   :root {
     background-image: none;
     background-color: var(--gray100);

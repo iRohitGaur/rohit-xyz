@@ -9,10 +9,12 @@ library.add(fab);
 
 function Sidebar({ content, contentHandler }) {
   const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
   const [visible, setVisible] = useState(false);
 
-  const updateWidth = () => {
+  const updateWidthHeight = () => {
     setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
   };
 
   useEffect(() => {
@@ -20,8 +22,8 @@ function Sidebar({ content, contentHandler }) {
   }, [content]);
 
   useEffect(() => {
-    window.addEventListener("resize", updateWidth);
-    return () => window.removeEventListener("resize", updateWidth);
+    window.addEventListener("resize", updateWidthHeight);
+    return () => window.removeEventListener("resize", updateWidthHeight);
   }, []);
 
   return (
@@ -29,7 +31,7 @@ function Sidebar({ content, contentHandler }) {
       <div className="sidebar__logoContainer">
         <img className="sidebar__logo" src="img/rohit-logo.gif" alt="" />
       </div>
-      {width < 1041 && (
+      {(width < 1041 || height < 721) && (
         <div
           className="sidebar__burgerButton"
           onClick={() => {
@@ -41,7 +43,11 @@ function Sidebar({ content, contentHandler }) {
       )}
       <div
         className={`sidebar__burgerContent ${
-          width < 1041 ? (visible ? "visible" : "invisible") : ""
+          width < 1041 || height < 721
+            ? visible
+              ? "visible"
+              : "invisible"
+            : ""
         }`}
       >
         <div className="sidebar__profilePicContainer fadeIn">

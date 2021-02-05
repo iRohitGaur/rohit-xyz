@@ -7,7 +7,7 @@
   background-color: var(--gray100);
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px), screen and (max-height: 720px) {
   .content__container {
     width: 100%;
   }

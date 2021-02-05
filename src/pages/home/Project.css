@@ -41,6 +41,11 @@
   margin-bottom: 0.5rem;
 }
 
+.project__detailsDesc {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .project__detailsButtonContainer {
   display: flex;
 }
@@ -71,15 +76,10 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 840px), screen and (max-height: 720px) {
   .project__detailsName,
   .project__detailsDesc {
     margin: 0.5rem;
-  }
-
-  .project__detailsDesc {
-    text-align: justify;
-    text-justify: inter-word;
   }
 
   .project__details {

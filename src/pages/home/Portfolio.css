@@ -35,7 +35,7 @@
   padding-bottom: 2rem;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px), screen and (max-height: 720px) {
   .portfolio__selector {
     margin-top: 140px;
   }

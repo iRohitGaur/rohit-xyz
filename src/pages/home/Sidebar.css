@@ -125,7 +125,7 @@ a:hover {
   transition: color 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px), screen and (max-height: 720px) {
   .sidebar__container {
     position: fixed;
     right: 0;
