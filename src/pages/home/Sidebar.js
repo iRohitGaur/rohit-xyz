@@ -16,6 +16,10 @@ function Sidebar({ content, contentHandler }) {
   };
 
   useEffect(() => {
+    setVisible(false);
+  }, [content]);
+
+  useEffect(() => {
     window.addEventListener("resize", updateWidth);
     return () => window.removeEventListener("resize", updateWidth);
   }, []);

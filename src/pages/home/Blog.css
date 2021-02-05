@@ -84,7 +84,23 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1040px) {
+  .blog__heading {
+    margin-top: 140px;
+  }
+}
+
 @media screen and (max-width: 840px) {
+  .blog__detailsName,
+  .blog__detailsDesc {
+    margin: 0.5rem;
+  }
+
+  .blog__detailsDesc {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
   .blog__details {
     display: flex;
     flex-direction: column;

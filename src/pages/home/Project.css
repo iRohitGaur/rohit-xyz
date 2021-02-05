@@ -72,6 +72,16 @@ a {
 }
 
 @media screen and (max-width: 840px) {
+  .project__detailsName,
+  .project__detailsDesc {
+    margin: 0.5rem;
+  }
+
+  .project__detailsDesc {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
   .project__details {
     display: flex;
     flex-direction: column;
