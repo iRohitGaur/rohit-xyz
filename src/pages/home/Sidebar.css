@@ -4,9 +4,9 @@
   background-color: var(--primary-color);
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column;
 }
 
 .sidebar__logoContainer {
@@ -19,6 +19,20 @@
   max-width: 100%;
 }
 
+.sidebar__burgerButton {
+  width: 0px;
+  height: 0px;
+}
+
+.sidebar__burgerContent {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .sidebar__profilePicContainer {
   width: 80%;
   margin: 1rem 0;
@@ -27,6 +41,7 @@
 
 .sidebar__profilePic {
   max-width: 100%;
+  max-height: 200px;
   border-radius: 50%;
 }
 
@@ -70,6 +85,7 @@
   border-radius: 12px;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
+  text-align: center;
   background-color: transparent;
   transition: background-color 0.2s ease-in-out;
 }
@@ -96,10 +112,70 @@
 
 a {
   color: white;
+  margin: 0 0.2rem;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
   color: black;
   transition: color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1040px) {
+  .sidebar__container {
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    flex-direction: row;
+  }
+
+  .sidebar__logoContainer {
+    margin: 0 1rem;
+    max-width: 140px;
+  }
+
+  .sidebar__burgerButton {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 2rem;
+    font-size: 3rem;
+  }
+
+  .visible {
+    position: fixed;
+    right: 0;
+    top: 99px;
+    width: 60%;
+    height: calc(100% - 99px);
+    max-width: 400px;
+    background-color: var(--primary-color);
+    transition: right 0.2s ease-in-out;
+  }
+
+  .invisible {
+    position: fixed;
+    right: -70%;
+    top: 99px;
+    width: 60%;
+    height: calc(100% - 99px);
+    max-width: 400px;
+    background-color: var(--primary-color);
+    transition: right 0.2s ease-in-out;
+  }
+
+  .sidebar__nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .sidebar__heroTitle {
+    font-size: 1.5rem;
+  }
+
+  .sidebar__introText {
+    font-size: 1rem;
+  }
 }

@@ -70,3 +70,22 @@
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 840px) {
+  .project__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project__posterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

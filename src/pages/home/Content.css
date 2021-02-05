@@ -6,3 +6,9 @@
   align-items: center;
   background-color: var(--gray100);
 }
+
+@media screen and (max-width: 1040px) {
+  .content__container {
+    width: 100%;
+  }
+}

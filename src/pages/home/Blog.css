@@ -56,10 +56,11 @@
 
 .blog__detailsButtonContainer {
   display: flex;
-  min-width: 100px;
 }
 
 .blog__detailsButtons {
+  min-width: 100px;
+  text-align: center;
   padding: 0.5rem;
   margin: 0 0.3rem;
   background-color: var(--secondary-color);
@@ -81,4 +82,23 @@
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 840px) {
+  .blog__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog__posterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
