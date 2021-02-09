@@ -43,6 +43,16 @@ export let projects = {
   ],
   Web: [
     {
+      name: "Cart It!",
+      poster: "img/portfolio/Web/cart-it.jpg",
+      description:
+        "A basic cart application made in React JS with the following features: add items to cart, remove items from cart, update total items and price in the cart in realtime.",
+      actions: {
+        "Visit Website": "https://cart-it.netlify.app/",
+        "View Source": "https://github.com/iRohitGaur/cart-it",
+      },
+    },
+    {
       name: "App Recommendations",
       poster: "img/portfolio/Web/app-recommendations.jpg",
       description:
