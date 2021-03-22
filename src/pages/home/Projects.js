@@ -17,7 +17,7 @@ export let projects = {
       description:
         "It is a great game to play while taking a break from work or studies as it freshens up your mind. Are you feeling bored? Or do you want to get your mind off something? Playing this game will help you get rid of all the distractions and focus on having fun. Be it an adult or a kid, it is a good game for all to play. Go and take the card-matching challenge now!",
       actions: {
-        View: "./squareit",
+        View: "./chatai",
         "Download ":
           "https://apps.apple.com/us/app/chatai-match-cards/id1503885469",
       },
