@@ -47,6 +47,56 @@ export let projects = {
   ],
   Web: [
     {
+      name: "Stocks - Profit or Loss",
+      poster: "img/portfolio/Web/profit-loss.jpg",
+      description:
+        "It is a web app made with React. Enter the buying price of the stock, the quantity of stock purchased and the current price of the stock; it will tell you how much the stock is up/down in % along-with your profit/loss.",
+      actions: {
+        "Visit Website": "https://h6s90.csb.app/",
+        "View Source": "https://github.com/iRohitGaur/profit-loss-stock",
+      },
+    },
+    {
+      name: "Palindrome Birthday",
+      poster: "img/portfolio/Web/palindrome-birthday.jpg",
+      description:
+        "It is a web app made with React. Enter your date of birth and it will tell you whether your birthday is a palindrome. If not, it will tell you the nearest palindrome date and by how many days you missed it.",
+      actions: {
+        "Visit Website": "https://o6xr1.csb.app/",
+        "View Source": "https://github.com/iRohitGaur/palindrome-birthday",
+      },
+    },
+    {
+      name: "Fun with Triangles",
+      poster: "img/portfolio/Web/fun-with-triangles.jpg",
+      description:
+        "It is a web app made with React. React Router is used to handle frontend routing. Enter the angles and check if they make up to a triangle. Play a quiz on triangles. Calculate the hypotenuse side by entering the other two. Calculate the area of triangle.",
+      actions: {
+        "Visit Website": "https://m4v3w.csb.app/",
+        "View Source": "https://github.com/iRohitGaur/fun-with-triangles",
+      },
+    },
+    {
+      name: "Is your birthday lucky?",
+      poster: "img/portfolio/Web/lucky-birthday.jpg",
+      description:
+        "It is a web app made with React. Enter your date of birth and your lucky number, it will tell you whether your birthday is lucky or not.",
+      actions: {
+        "Visit Website": "https://1gimi.csb.app/",
+        "View Source": "https://github.com/iRohitGaur/lucky-birthday",
+      },
+    },
+    {
+      name: "What's the Change?",
+      poster: "img/portfolio/Web/cash-register.jpg",
+      description:
+        "It is a web app made with React. Enter the bill amount and cash paid, it will tell you how much change is to be returned to the customer with the minimum number of notes.",
+      actions: {
+        "Visit Website": "https://nyopx.csb.app/",
+        "View Source": "https://github.com/iRohitGaur/Whats-The-Change",
+      },
+    },
+    {
       name: "Cart It!",
       poster: "img/portfolio/Web/cart-it.jpg",
       description:
