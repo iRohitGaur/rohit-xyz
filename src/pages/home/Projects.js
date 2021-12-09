@@ -117,8 +117,8 @@ export let projects = {
         "This is a CLI app which tests your knowledge on Harry Potter series and keeps track of your highscore using firebase.",
       actions: {
         "Play Now":
-          "https://repl.it/@iRohitGaur/1-Do-You-Know-India?embed=1&output=1",
-        "View Source": "https://github.com/iRohitGaur/1-Do-You-Know-India",
+          "https://repl.it/@iRohitGaur/2-Are-You-A-Potterhead?embed=1&output=1",
+        "View Source": "https://github.com/iRohitGaur/2-Are-You-A-Potterhead",
       },
     },
     {
@@ -128,8 +128,8 @@ export let projects = {
         "This is a CLI app which tests your knowledge on India and keeps track of your highscore using jsonbase.",
       actions: {
         "Play Now":
-          "https://repl.it/@iRohitGaur/2-Are-You-A-Potterhead?embed=1&output=1",
-        "View Source": "https://github.com/iRohitGaur/2-Are-You-A-Potterhead",
+          "https://repl.it/@iRohitGaur/1-Do-You-Know-India?embed=1&output=1",
+        "View Source": "https://github.com/iRohitGaur/1-Do-You-Know-India",
       },
     },
   ],
