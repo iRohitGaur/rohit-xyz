@@ -101,10 +101,31 @@ export let projects = {
       },
     },
     {
+      name: "Minion Tongue",
+      poster: "img/portfolio/Web/minon-tongue",
+      description:
+        "A translator web app to convert your text from English to Minion Tongue or Banana language.",
+      actions: {
+        "Visit Website": "https://minion-tongue.netlify.app/",
+        "View Source": "https://github.com/iRohitGaur/minion-tongue",
+      },
+    },
+    {
       name: "Are you a PotterHead?",
       poster: "img/portfolio/Web/potterhead.png",
       description:
         "This is a CLI app which tests your knowledge on Harry Potter series and keeps track of your highscore using firebase.",
+      actions: {
+        "Play Now":
+          "https://repl.it/@iRohitGaur/1-Do-You-Know-India?embed=1&output=1",
+        "View Source": "https://github.com/iRohitGaur/1-Do-You-Know-India",
+      },
+    },
+    {
+      name: "How well do you know India?",
+      poster: "img/portfolio/Web/India.jpg",
+      description:
+        "This is a CLI app which tests your knowledge on India and keeps track of your highscore using jsonbase.",
       actions: {
         "Play Now":
           "https://repl.it/@iRohitGaur/2-Are-You-A-Potterhead?embed=1&output=1",
