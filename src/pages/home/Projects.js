@@ -102,7 +102,7 @@ export let projects = {
     },
     {
       name: "Minion Tongue",
-      poster: "img/portfolio/Web/minon-tongue",
+      poster: "img/portfolio/Web/minion-tongue.jpg",
       description:
         "A translator web app to convert your text from English to Minion Tongue or Banana language.",
       actions: {
