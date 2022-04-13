@@ -1,10 +1,40 @@
 export let projects = {
   Web: [
     {
+      name: "Starflix",
+      poster: "img/portfolio/Web/starflix.jpg",
+      description:
+        "A Video streaming website built with ReactJS. It's a library of birds videos with the following features: Authentication; Like a Video; Add to Watch Later; Playlist Management; Watched History; Search, Sort & Filter; Single Video Page; Custom Video Count",
+      actions: {
+        "Visit Website": "https://starflix.netlify.app",
+        "View Source": "https://github.com/iRohitGaur/starflix",
+      },
+    },
+    {
+      name: "StarCart",
+      poster: "img/portfolio/Web/starcart.jpg",
+      description:
+        "An e-Commerce website built with ReactJS. It offers bird apparel and stickers with following features: Authentication; Wishlist Management; Cart Management; Address Management; Search, Sort & Filter; Custom Toast; Share your Cart; Payment Integration",
+      actions: {
+        "Visit Website": "https://starcart-react.netlify.app/",
+        "View Source": "https://github.com/iRohitGaur/StarCart",
+      },
+    },
+    {
+      name: "Starling UI",
+      poster: "img/portfolio/Web/starling.jpg",
+      description:
+        "An open-source component library that gives designers and developers the components they need to create engaging product experiences.",
+      actions: {
+        "Visit Website": "https://starlingui.netlify.app/",
+        "View Source": "https://github.com/iRohitGaur/StarlingUI",
+      },
+    },
+    {
       name: "Cart It!",
       poster: "img/portfolio/Web/cart-it.jpg",
       description:
-        "A basic cart application made in React JS with the following features: add items to cart, remove items from cart, update total items and price in the cart in realtime.",
+        "A basic cart application made in React JS with the following features: add items to cart; remove items from cart; update total items and price in the cart in realtime.",
       actions: {
         "Visit Website": "https://cart-it.netlify.app/",
         "View Source": "https://github.com/iRohitGaur/cart-it",
