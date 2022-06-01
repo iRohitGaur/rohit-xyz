@@ -18,7 +18,11 @@ function Project({ name, poster, description, actions }) {
       </Color>
       <div className="project__detailsContainer">
         <div className="project__details">
-          <div className="project__detailsName">{name}</div>
+          <div className="project__detailsName">
+            {name.map((item) => (
+              <div key={item}>{item}</div>
+            ))}
+          </div>
           <div className="project__detailsButtonContainer">
             {actionButtons.map((item) => (
               <a key={item} href={actions[item]}>
@@ -27,7 +31,11 @@ function Project({ name, poster, description, actions }) {
             ))}
           </div>
         </div>
-        <div className="project__detailsDesc">{description}</div>
+        <div className="project__detailsDesc">
+          {description.map((items, index) => (
+            <span key={index}>{items}</span>
+          ))}
+        </div>
       </div>
     </div>
   );

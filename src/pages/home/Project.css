@@ -36,9 +36,15 @@
 }
 
 .project__detailsName {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 5px;
+}
+
+.project__detailsName span {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .project__detailsDesc {
@@ -46,11 +52,17 @@
   text-justify: inter-word;
 }
 
+.project__detailsDesc a {
+  color: var(--primary-color-dark);
+  font-weight: 500;
+}
+
 .project__detailsButtonContainer {
   display: flex;
 }
 
 .project__detailsButtons {
+  font-weight: 500;
   min-width: 110px;
   padding: 0.5rem;
   margin: 0 0.3rem;

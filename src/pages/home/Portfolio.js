@@ -31,7 +31,7 @@ function Portfolio() {
       <div className="portfolio__projectsContainer">
         {projects[selected].map((item) => (
           <Project
-            key={item.name}
+            key={item.poster}
             name={item.name}
             poster={item.poster}
             description={item.description}
